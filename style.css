@@ -1,0 +1,80 @@
+/*sirve para poder atributos globales "*" */
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    background-color:#0d1a2d;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+}
+
+.card{
+    width: 300px;
+    background-color: hsl(216,50%,16%);
+    border-radius:14px;
+}
+
+.card-foto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:400px;
+    margin-top: -40px;
+    margin-bottom: -40px;
+}
+
+.imagen-principal{
+    width:250px;
+    border-radius: 14px;
+}
+
+.text-white{
+    color: #fff;
+    font-weight: bold;
+}
+
+.contenedor-dos{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.text-gray{
+    margin-top:15px;
+    color:#fff;
+    opacity: 0.3;
+}
+.text-gray-2{
+
+    color:#fff;
+    opacity: 0.3;
+}
+.contenedor-detalle{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.text-eth{
+    color: hsl(178,100%,50%)
+}
+
+.text-reloj{
+    color:#fff;
+    opacity: 0.3;
+}
+
+.contenedor-autor{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.autor{
+    display: flex;
+}
